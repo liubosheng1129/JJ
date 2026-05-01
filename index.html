@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,7 +6,8 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
-    <title>Document</title>
+    <title>林俊杰个人介绍</title>
+    <!-- 浏览器标签页标题 -->
     <style>
       img {
         max-width: 100%;
@@ -14,9 +15,14 @@
     </style>
   </head>
   <body>
+    <!-- 网页真正显示的内容 -->
     <nav>
+      <!-- nav表示导航区域，放的是页面的内部目录 -->
       <ol>
+        <!-- 有序列表，如果不想要数字，也可以改成<ul>无序列表 -->
+        <!-- li是列表项，每一个导航链接都是一个列表项 -->
         <li><a href="#jj">个人简历</a></li>
+        <!-- 这是超链接。href="#jj" 表示：点击后跳转到当前页面中 id="jj" 的位置。 -->
         <li><a href="#events">重要事件</a></li>
         <li><a href="#award">重要奖项</a></li>
         <li><a href="#work">主要作品</a></li>
@@ -25,12 +31,16 @@
       </ol>
     </nav>
     <h1 id="jj">个人介绍</h1>
+    <!-- 一级标题 -->
     <p>
+      <!-- p表示段落 -->
       林俊杰（英语：Wayne Lim Jun Jie，艺名：JJ
       Lin；1981年3月27日—），新加坡华裔歌手、词曲作家、音乐制作人，被誉为“行走的CD”[6][7]，出道至今已举办逾两百场世界巡回演唱会[8]。曾拿下金曲奖最佳新人奖以及两届金曲奖最佳男歌手。2003年，发行首张创作专辑《乐行者》，之后凭借2004年的专辑《第二天堂》中《江南》一曲成名，随后的《小酒窝》、《曹操》、《她说》等歌曲亦造成回响。2014年，以专辑《因你而在》获得第25届金曲奖最佳国语男歌手奖。2016年，再以专辑《和自己对话》夺得第27届金曲奖最佳国语男歌手奖及演唱类最佳作曲人奖[9]。
     </p>
     <h2 id="events">重要事件</h2>
+    <!-- 二级标题id="events" 对应导航 -->
     <ul>
+      <!-- 无序列表 -->
       <li>
         2003年4月10日，发行首张录音室专辑《乐行者》[13]，专辑名称寓意“在音乐世界里悠然行走的人”[14]。收录的11首歌曲皆由林俊杰作曲，不仅囊括了时下颇受欢迎的R&B和节奏感强烈的舞曲，还融入丰富多元的音乐风格。该专辑在全亚洲销量超过120万张[15]，林俊杰凭此专辑获得第15届金曲奖“最佳演唱新人奖”[16]。
       </li>
@@ -53,6 +63,9 @@
     </ol>
     <h2 id="work">主要作品</h2>
     <table>
+      <!-- table，表示表格，thead：表格头部
+      tr：table row，表格的一行
+      th：table header，表头单元格 -->
       <thead>
         <tr>
           <th>年份</th>
@@ -60,6 +73,9 @@
         </tr>
       </thead>
       <tbody>
+        <!-- tbody：表格主体
+            tr：表格行
+            td：table data，普通单元格   -->
         <tr>
           <td>2005</td>
           <td>空气</td>
@@ -78,9 +94,13 @@
         </tr>
       </tbody>
     </table>
-    <h2 id="jpg">自拍照</h2>
+    <h2 id="jpg">生活照</h2>
 
     <div>
+      <!-- div 是普通容器，用来包裹内容。
+            <a href="./林俊杰.jpg" target="_blank">
+              这是一个链接。href="./林俊杰.jpg" 表示链接到当前文件夹下的这张图片。
+              target="_blank" 表示在新标签页打开。  -->
       <a href="./林俊杰.jpg" target="_blank"
         ><img width="400" src="./林俊杰.jpg" alt="图一"
       /></a>
@@ -89,6 +109,7 @@
       <a href="./林俊杰2.jpg" target="_blank"
         ><img width="400" src="./林俊杰2.jpg" alt="图一"
       /></a>
+      <!-- 点击图片在新标签页打开原图   -->
     </div>
     <div>
       <a href="./林俊杰3.jpg" target="_blank"
